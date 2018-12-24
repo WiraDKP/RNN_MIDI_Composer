@@ -70,9 +70,8 @@ Here is the Loss history
 Note: You does not have to push the Loss to minimum to generate a good music.
 
 ## References
-This project will not succeed without these references. T<br>hank you indeed!
+This project will not succeed without these references. Thank you indeed!
 - http://www.fourmilab.ch/webtools/midicsv/<br>
-- https://www.midieditor.org<br><br>
+- https://www.midieditor.org<br>
 - https://midialdo.blogspot.com/2017/12/download-kumpulan-midi-lagu-lagu-daerah.html<br>
-- https://github.com/udacity/deep-le<br>arning-v2-pytorch/tree/master/recurrent-neural-networks/char-rnn<br><br>
-<br><br><br><br><br><br>
+- https://github.com/udacity/deep-learning-v2-pytorch/tree/master/recurrent-neural-networks/char-rnn
