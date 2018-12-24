@@ -12,7 +12,7 @@ Set your desired configuration in `train.py` then run
 > python train.py
 
 You can visualize the model performance using the `Music Composer.ipynb` notebook while training.<br>
-Note: The program will keep running unless you interrupt it with `ctrl+C`.
+Note: The program will keep running unless you interrupt it with `ctrl + c`.
 
 ### Parameters in Training configuration
 - `n_hidden`<br>
@@ -55,7 +55,7 @@ The midi channels and track number. For example, `[0, 1, 2]` means three channel
 
 ## Troubleshooting
 - If `Retry music composing...` keeps on popping<br>
-It is caused by our model does not follow the format. For example, we would want C5-512-1024, but the model generated C5--512-1024. You can try to use less channel, decrease `top_k`, decrease `compose_len`, train longer, or get more data. Less `top_k` helps because it will follow the proper format of the data instead of randomly generate characters. The same with longer training, and more data so that it can properly learn the format. Lower `compose_len`, instead, just to avoid this problem before it happens. Less channel is a must, the more you try to generate, the more chances that the model broke the format.
+It is caused by our model does not follow the format. For example, we would want C5-512-1024, but the model generated C5--512-1024. In analogy char-RNN for paragraph generation, it is like a _typo_.<br>You can try to use less channel, decrease `top_k`, decrease `compose_len`, train longer, or get more data. Less `top_k` helps because it will follow the proper format of the data instead of randomly generate characters. The same with longer training, and more data so that it can properly learn the format. Lower `compose_len`, instead, just to avoid this problem before it happens. Less channel is a must, the more you try to generate, the more chances that the model broke the format.
 - If the model replicates the music from dataset<br>
 It is overfitting. You can try to decrease the model model complexity (less `n_hidden`, `n_layers`, `seq_len`), choose a model with lower epoch (higher loss model), or increase the `d_out`.
 - If the generated music sounds gibberish<br>
