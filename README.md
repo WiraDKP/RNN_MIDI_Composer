@@ -17,8 +17,16 @@ Use the `Music Composer.ipynb` notebook. Load the model, then set your desired c
 
 In this example, `mymusic.csv` is generated. Use _Midicsv_<sup>[1]</sup> to convert it back to midi file, and you can open it with common midi player pr you can try _MidiEditor_<sup>[2]</sup>
 
+## Sample Result
+I have done some preprocessing on a list of Indonesia folk songs in midi format<sup>[3]</sup> and it results in all those .csv files in the `dataset` folder. The trained model is in the `model` folder, and the music it generates is in the `sample` folder.
+
+Here is the Loss history
+![](asset/Loss.png)
+
+Note: You does not have to push the Loss to minimum to generate a good music.
+
 ## References
 - http://www.fourmilab.ch/webtools/midicsv/
 - https://www.midieditor.org
-- http://www.inspiredacoustics.com/en/MIDI_note_numbers_and_center_frequencies
 - https://midialdo.blogspot.com/2017/12/download-kumpulan-midi-lagu-lagu-daerah.html
+
