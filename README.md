@@ -4,6 +4,7 @@ Training a LSTM on Indonesian Folk Songs in MIDI format to compose a new MIDI mu
 # How to train model
 Set your desired configuration in `train.py` then run
 > python train.py
+
 You can visualize the model performance using the `Music Composer.ipynb` notebook while training.
 ![](asset/Loss.gif)
 Note: The program will keep running unless you interrupt it with `ctrl+C`.
