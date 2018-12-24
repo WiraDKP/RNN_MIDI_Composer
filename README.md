@@ -1,6 +1,9 @@
 # RNN_MIDI_Composer
 Training a LSTM on Indonesian Folk Songs in MIDI format to compose a new MIDI music.
 
+## How to prepare your data
+Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. 
+
 ## How to train model
 Set your desired configuration in `train.py` then run
 > python train.py
@@ -12,7 +15,7 @@ Note: The program will keep running unless you interrupt it with `ctrl+C`.
 ## How to compose music
 Use the `Music Composer.ipynb` notebook. Load the model, then set your desired configuration.
 
-In this example, mymusic.csv is generated. Use midicsv program to convert it back to midi file.
+In this example, `mymusic.csv` is generated. Use _Midicsv_<sup>[1]</sup> to convert it back to midi file, and you can open it with common midi player pr you can try _MidiEditor_<sup>[2]</sup>
 
 ## References
 - http://www.fourmilab.ch/webtools/midicsv/
