@@ -47,7 +47,7 @@ The name used for the generated music (.csv). You need to convert it back to .mi
 - `prime`<br>
 Prime for the RNN to compose the characters
 - `top_k`<br>
-Take top k most probable prediction to randomly choose from. `top_k = 1` means that we always use the most probable character.<br>To be more creative, use `top_k` around 3-5. If top_k value is too large, the prediction may not follow the desired format to be converted back to .mid format.
+Take top k most probable prediction to randomly choose from. `top_k = 1` means that we always use the most probable character. Higher `top_k` will produce more creative music (relative to the dataset). I would recommend around 3-5. If top_k value is too large, the prediction may not follow the desired format to be converted back to .mid format.
 - `compose_len`<br>
 Length of character to compose. One music note will need 8-14 characters. 
 - `channel`<br>
