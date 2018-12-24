@@ -6,13 +6,11 @@ Set your desired configuration in `train.py` then run
 > python train.py
 
 You can visualize the model performance using the `Music Composer.ipynb` notebook while training.
-![](asset/Loss.gif)
 
 Note: The program will keep running unless you interrupt it with `ctrl+C`.
 
 ## How to compose music
 Use the `Music Composer.ipynb` notebook. Load the model, then set your desired configuration.
-![](asset/Compose.gif)
 
 In this example, mymusic.csv is generated. Use midicsv program to convert it back to midi file.
 
