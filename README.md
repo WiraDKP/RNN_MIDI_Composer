@@ -1,6 +1,9 @@
 # RNN_MIDI_Composer
-Training a LSTM on Indonesian Folk Songs in MIDI format to compose a new MIDI music. Have a listen:
+Training a LSTM on Indonesian Folk Songs in MIDI format to compose a new MIDI music.<br>
+Have a listen:
 - https://github.com/WiraDKP/RNN_MIDI_Composer/blob/master/sample/mymusic.mid
+Have a look:<br>
+- https://youtu.be/0eTYs4n1LKg
 
 ## How to prepare your data
 Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. 
