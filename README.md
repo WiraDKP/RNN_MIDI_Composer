@@ -39,7 +39,7 @@ Folder Name for the data. It must have the .csv files in _Midicsv_<sup>[1]</sup>
 ## How to compose music
 Use the `Music Composer.ipynb` notebook. Load the model, then set your desired configuration.
 
-In this example, `mymusic.csv` is generated. Use _Midicsv_<sup>[1]</sup> to convert it back to midi file, and you can open it with common midi player or you can try _MidiEditor_<sup>[2]</sup>
+I have prepared some generated music in the sample folder. Use _Midicsv_<sup>[1]</sup> to convert it back to midi file, then you can open it with common midi player or you can try _MidiEditor_<sup>[2]</sup>
 
 ### Parameters in Composing configuration
 - `fname`<br>
