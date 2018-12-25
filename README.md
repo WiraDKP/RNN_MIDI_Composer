@@ -1,8 +1,6 @@
 # RNN_MIDI_Composer
 Training a LSTM on Indonesian Folk Songs in MIDI format to compose a new MIDI music. Have a listen:
-- 2106 epochs: https://github.com/WiraDKP/RNN_MIDI_Composer/blob/master/sample/mymusic_2106_epochs.mid
-- 4211 epochs: https://github.com/WiraDKP/RNN_MIDI_Composer/blob/master/sample/mymusic_4211_epochs.mid
-- 13158 epochs: https://github.com/WiraDKP/RNN_MIDI_Composer/blob/master/sample/mymusic_13158_epochs.mid
+- https://github.com/WiraDKP/RNN_MIDI_Composer/blob/master/sample/mymusic.mid
 
 ## How to prepare your data
 Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. 
@@ -62,7 +60,9 @@ It is overfitting. You can try to decrease the model model complexity (less `n_h
 Your data may be too complex. Try a more homogenous data.
 
 ## Sample Result
-I used a list of Indonesia folk songs in midi format<sup>[3]</sup>. After some preprocessing, it results in all those .csv files in the `dataset` folder. The trained model is in the `model` folder, and the music it generates is in the `sample` folder.
+Have a listen:
+- https://github.com/WiraDKP/RNN_MIDI_Composer/blob/master/sample/mymusic.mid<br>
+I used a list of Indonesian folk songs in midi format<sup>[3]</sup>. After some preprocessing, it results in all those .csv files in the `dataset` folder. The trained model is in the `model` folder, and the music it generates is in the `sample` folder.
 
 Here is the Loss history
 ![](asset/Loss.png)
