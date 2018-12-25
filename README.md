@@ -39,7 +39,7 @@ Folder Name for the data. It must have the .csv files in _Midicsv_<sup>[1]</sup>
 ## How to compose music
 Use the `Music Composer.ipynb` notebook. Load the model, then set your desired configuration.
 
-In this example, `mymusic.csv` is generated. Use _Midicsv_<sup>[1]</sup> to convert it back to midi file, and you can open it with common midi player pr you can try _MidiEditor_<sup>[2]</sup>
+In this example, `mymusic.csv` is generated. Use _Midicsv_<sup>[1]</sup> to convert it back to midi file, and you can open it with common midi player or you can try _MidiEditor_<sup>[2]</sup>
 
 ### Parameters in Composing configuration
 - `fname`<br>
@@ -62,7 +62,7 @@ It is overfitting. You can try to decrease the model model complexity (less `n_h
 Your data may be too complex. Try a more homogenous data.
 
 ## Sample Result
-I have done some preprocessing on a list of Indonesia folk songs in midi format<sup>[3]</sup> and it results in all those .csv files in the `dataset` folder. The trained model is in the `model` folder, and the music it generates is in the `sample` folder.
+I used a list of Indonesia folk songs in midi format<sup>[3]</sup>. After some preprocessing, it results in all those .csv files in the `dataset` folder. The trained model is in the `model` folder, and the music it generates is in the `sample` folder.
 
 Here is the Loss history
 ![](asset/Loss.png)
