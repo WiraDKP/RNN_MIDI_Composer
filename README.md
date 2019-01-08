@@ -12,6 +12,7 @@ Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in 
 ## How to train model
 The training is executed through a command-line interface (CLI). Check for the cli help documentation.
 > python train.py -h
+
 You may also use the default value by simply run
 > python train.py
 
