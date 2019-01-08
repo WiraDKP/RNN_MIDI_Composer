@@ -10,32 +10,34 @@ Have a look:<br>
 Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. 
 
 ## How to train model
-Set your desired configuration in `train.py` then run
+Run this command in the terminal to view the command help
+> python train.py -h
+You may use the default value by simply run
 > python train.py
 
 You can visualize the model performance using the `Music Composer.ipynb` notebook while training.<br>
 Note: The program will keep running unless you interrupt it with `ctrl + c`.
 
 ### Parameters in Training configuration
-- `n_hidden`<br>
+- `n_hidden` / `-nh`<br>
 Number of hidden unit.
-- `n_layers`<br>
+- `n_layers` / `-nl`<br>
 Number of hidden layer.
-- `bs`<br>
+- `bs` / `-bs`<br>
 batch size
-- `seq_len`<br>
+- `seq_len` / `-sl`<br>
 Length of input sequence.
-- `lr`<br>
+- `lr` / `-lr`<br>
 Learning Rate
-- `d_out`<br>
+- `d_out` / `-do`<br>
 Dropout rate
-- `save_every`<br>
+- `save_every` / `-se`<br>
 Number of steps for a model to be saved
-- `print_every`<br>
+- `print_every` / `-pe`<br>
 Number of steps that the training information (loss, etc.) will be printed
-- `name`<br>
+- `name` / `-o`<br>
 Folder Name for the model. It will create a new folder with this name if the folder is not found.
-- `midi_source_folder`<br>
+- `midi_source_folder` / `-i`<br>
 Folder Name for the data. It must have the .csv files in _Midicsv_<sup>[1]</sup> format.
 
 ## How to compose music
