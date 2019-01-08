@@ -6,6 +6,13 @@ Have a listen:
 Have a look:<br>
 - https://youtu.be/0eTYs4n1LKg
 
+## Dependencies
+- numpy
+- pandas
+- pytorch==0.4.1
+- plac
+- tqdm
+
 ## How to prepare your data
 Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. 
 
