@@ -14,7 +14,7 @@ Have a look:<br>
 - tqdm
 
 ## How to prepare your data
-Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. 
+Convert your midi file into .csv using _Midicsv_<sup>[1]</sup>, and put them in a folder, by default, in the `dataset` folder. It is recommended to remove channels that contain repetitive music (usually background sound such as drums and snare) to avoid the RNN produce uninteresting repetitive sound. I do perform this data cleaning in the Indonesian Folk Song Dataset.
 
 ## How to train model
 The training is executed through a command-line interface (CLI). Check for the cli help documentation.
