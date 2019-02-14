@@ -203,6 +203,9 @@ def csv2seq(foldername, filename, note):
     df.note = df.note.apply(lambda x: midi2note[int(x)])
     df.velocity = df.velocity.apply(int)
 
+    # Note_on_c with 0 velocity means Note_off_c
+    df.tipe[(df.tipe=="Note_on_c") & (df.velocity==0)] = "Note_off_c"
+    
     df.drop(["channel", "velocity"], axis=1, inplace=True)
 
     filename = filename.strip(".csv")
